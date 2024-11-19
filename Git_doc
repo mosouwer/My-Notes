@@ -1,0 +1,63 @@
+version control systeam is a tool that helps to track changes in the code3
+
+
+git configure
+
+git config --global user.name "Name"
+
+git config --global user.email "Name@somone.com"
+
+
+git clone - cloing repo in local machine\
+
+git status - display the status of the code
+
+1) untracked - new file that git doesn't yet track
+
+2) staged- file is ready to be committed
+
+
+
+ls -a to view the hidden file 
+
+
+
+Add and Commit --------------
+
+add adds new or changed files in your working directory to git staging area.
+
+git add filiename
+
+git diff - to check the difference in the file content
+
+commit- it is a record of change
+
+git commit -m "msg"
+
+
+git log - to check the commits logs
+
+
+if git push is done via clone method then authentication not required
+
+
+if via mannual creating a new repo method then
+
+
+git init
+
+git remote add origin <link>
+
+gut remote -v  (to verify remote links)
+
+git branch (to verify branch)
+
+git branch -M main  (rename branch)
+
+git push origin main
+
+git push -f origin main (force push if any error)
+
+
+
+
