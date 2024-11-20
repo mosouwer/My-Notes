@@ -1,0 +1,23 @@
+sudo system ctl status docker - to verify docker is running
+
+** docker and docker demon runs with root user only
+
+    
+sudo usermod -aG (adding the user to docker group) it is making the part of docker group
+(logout and login back required to active user profile)
+
+
+docker images - to view all the docker images available 
+
+docker build -t user/imagename .
+
+-it (interactive terminal command)
+
+docker run -it <imageid>
+
+whenevre someone runs docker run bo th ENTRYPOINT AND CMD can serve as your starting command but the\
+only differece is entry point cannot be changed whereas CMD is configurable 
+
+
+docker image rm -f <imageid> -- to delete docker image  
+
