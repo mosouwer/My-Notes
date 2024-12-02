@@ -21,3 +21,28 @@ only differece is entry point cannot be changed whereas CMD is configurable
 
 docker image rm -f <imageid> -- to delete docker image  
 
+
+docker login
+docker push <imagename>  -- to push the docker image in deocker reop
+
+
+
+
+Scenarios for Docker Bind Mounts and Volumes*************
+
+2. suppose there are two containers and one with frontend and one with backend, if suppose backend is dynamically craeting a file for every other day and front end use to read these files and if the backend docker is down for some reason then the files which by created by backend will not be available as the storage was not permanent or persistant
+
+
+3. app is trying to read files from the file system storage. container can use sytem cpu or ram memory but there is no such standard way that container can use file system
+
+
+Docker has come up with 2 concept to solve these problems:
+
+1. Bind mounts
+2. Volumes
+
+
+
+Docker will create a logical partition or logical volume on host which will be mounted to container 
+
+
