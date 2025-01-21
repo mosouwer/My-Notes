@@ -60,4 +60,17 @@ git push -f origin main (force push if any error)
 
 
 
+************Git Authentication*********
+
+ls ~/.ssh   if you have id_rsa means you alraedy have a key inside
+
+generate a key --> ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+view and copy key -->> cat ~/.ssh/id_rsa.pub
+
+add the key in git ssh authentication
+
+
+
+
 
